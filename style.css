@@ -85,32 +85,37 @@ nav ul {
 
 @keyframes fringing {
     0% {
-        text-shadow: 0px 0px #DA4D88;
+        text-shadow: 0px 0px  #DA4D88;
 
     }
 
     50% {
-        text-shadow: 5px 5px #DA4D88;
+        text-shadow: 5px 5px  #DA4D88;
 
     }
 
     100% {
-        text-shadow: 0px 0px #DA4D88;
+        text-shadow: 0px 0px  #DA4D88;
     }
 
 }
 
 #projects {
-    background-image: linear-gradient(45deg, hsla(334, 48%, 78%, 0.9), hsla(313, 48%, 50%, 0.95)),url(https://i.etsystatic.com/11620638/r/il/fd5560/1080331327/il_fullxfull.1080331327_qg46.jpg);    
+    
+    background-image: linear-gradient(45deg, #e1abc3, #c75aaf);    
     /* #dd85a9; */
     background-attachment: fixed;
 }
 
+#projects h3{
+    color: white;
+}
+
 #grid {
     display: flex;
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: center;
     flex-wrap: wrap;
     
@@ -136,7 +141,7 @@ nav ul {
 
     /* shadow */
  
-    box-shadow: 6px 6px 0px 3px rgba(36, 36, 36, 0.2);
+    box-shadow: 6px 6px  rgba(36, 36, 36, 0.6);
 
     transition: transform .3s, box-shadow .3s;
 
@@ -154,6 +159,7 @@ nav ul {
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 .grid-item-img img {
@@ -170,7 +176,7 @@ nav ul {
 }
 
 section {
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 section h3 {
@@ -179,4 +185,38 @@ section h3 {
     text-align: center;
     width: 80%;
     margin-left: 10%;
+}
+
+#about-square{
+    
+    padding: 40px 0px;
+    margin: 80px auto;
+    background-color: aliceblue;
+    width :  80%;
+    
+    border-radius: 5px;
+    /* shadow */
+ 
+    box-shadow: 15px 15px 0px 3px rgba(36, 36, 36, 0.2);
+}
+
+#about{
+    background-color: #8fe7b1;
+    text-align: center;
+
+    padding-bottom: 50px;
+}
+#about p{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+#contact{
+    background: antiquewhite;
+    height: 100%;
+    width: 100%;
 }
